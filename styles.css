@@ -1,7 +1,7 @@
 @charset 'UTF-8';
 
 :root {
-  --f_fontSize: ;
+  --f_fontSize: 16px;
 }
 
 * {
