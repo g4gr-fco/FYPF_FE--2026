@@ -1,0 +1,30 @@
+@charset 'UTF-8';
+
+:root {
+  --f_fontSize: ;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: var(--f_fontSize);
+}
+
+.Body {
+  font-size: clamp(100%, 0.75rem + 0.75vw, 25px);
+}
+
+.Header {
+}
+
+.Aside {
+}
+
+.Main {
+}
+
+.Footer {
+}
