@@ -18,6 +18,19 @@ html {
 }
 
 .Header {
+  & .navbar {
+    & .logo {
+      & .logo--img {
+      }
+    }
+
+    & .menu {
+      & .menu__list {
+        & .menu__list--item {
+        }
+      }
+    }
+  }
 }
 
 .Aside {
